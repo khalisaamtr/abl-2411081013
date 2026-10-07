@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PelangganApplication<pelanggan>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/folderBesarKedua/pelanggan",
+            "mainClass": "com.khalisa.pelanggan.PelangganApplication",
+            "projectName": "pelanggan",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-OrderApplication<order>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/folderBesarKedua/order",
+            "mainClass": "com.khalisa.order.OrderApplication",
+            "projectName": "order",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProdukApplication<product>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/folderBesarKedua/product",
+            "mainClass": "com.khalisa.product.ProdukApplication",
+            "projectName": "product",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
